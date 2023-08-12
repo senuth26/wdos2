@@ -1,0 +1,284 @@
+body{
+    background-image: url(images/beach.jpg);
+    background-size: cover;
+    margin: 0; /* Reset default margin */
+    padding: 0; /* Reset default padding */
+}
+.container {
+    padding: 0px;
+    margin: 0px;
+  }
+  
+  /* Styling for h1 */
+  .container h1 {
+    text-align: center;
+    font-size: 68px;
+    font-family: 'gyahegi';
+    color: #ffffff;
+    margin: 0;
+    padding: 25px 0;
+    background-color: rgb(0, 0, 0);
+    opacity: 0.5;
+    }
+  
+  /* Styling for nav */
+  .container nav {
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    background-color: #993737;
+    background-image: url(images/grd1.jpg);
+    background-size: cover;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+  
+  .container nav ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  .container nav ul li {
+    position: relative;
+    margin-right: 20px;
+  }
+  
+  .container nav ul li:last-child {
+    margin-right: 0;
+  }
+  
+  .container nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .container nav ul li a:hover {
+    background-color: #fff;
+    color: #000;
+    border-radius: 7px;
+  }
+  .re, .re1, .re3{
+    text-align: center;
+  }
+  .de{
+    font-size: 11px;
+  }
+  .con{
+    font-size: 37px;
+  }
+form{
+    width: 30%;
+    margin-left: 5%;
+    background-color: #fff6f6;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+    float: left;
+    position: relative;
+}
+#sumtabl{
+    width: 40%;
+    border-spacing: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px #000;
+    border-radius: 10px;
+    background-color: #d5d5d5;
+
+}
+#sumtabl tr{
+    padding: 10px;
+    border: 1px solid #000;
+    font-family: 'Roboto', sans-serif;
+    height: 2.59em;
+    
+}
+#sumtabl tr td{
+    margin: 10px;
+    width: 50%;
+}
+.Guss, .tp{
+    background-color: blanchedalmond;
+}
+.SlAd, .SlCh, .FoAd, .FoCh , .INF{
+    margin-top: 1.4em;
+    padding-top: 0.9em;
+    display: flex;
+}
+.SlAd label, .SlCh label, .FoAd label, .FoCh label, .INF label{
+    margin-top: 0.5em;
+}
+.SlAd input[type="number"], .SlCh input[type="number"], .FoAd input[type="number"], .FoCh input[type="number"] , .INF input[type="number"]{
+    text-align: center;
+    background: none;
+    border: none;
+    width: 20%;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    margin: 0em;
+}
+.SlAd button, .SlCh button, .FoAd button, .FoCh button, .INF button{
+    background-color:rgba(0, 0, 0, 0.863);
+    color: #fff;
+    border-top-color: black;
+    border-bottom-color: black;  
+}
+.SlAd #increase{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    margin: 0 0 0 10em;
+    border-left-color: black;
+}
+.SlCh #increase1{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    margin: 0 0 0 9em;
+    border-left-color: black;
+}
+.FoAd #increase2{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    margin: 0 0 0 6.8em;
+    border-left-color: black;
+}
+.FoCh #increase3{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    margin: 0 0 0 5.7em;
+    border-left-color: black;
+}
+.INF #increase4{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0.5em 0em 0em 0.5em;
+    margin: 0 0 0 11.5em;
+    border-left-color: black;
+}
+.SlAd #decrease{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    margin: 0 0 0 0;
+    border-right-color: black;
+}
+.SlCh #decrease1{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    margin: 0 0 0 0;
+    border-right-color: black;
+}
+.FoAd #decrease2{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    margin: 0 0 0 0;
+    border-right-color: black;
+}
+.FoCh #decrease3{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    margin: 0 0 0 0;
+    border-right-color: black;
+}
+.INF #decrease4{
+    padding: 0.5em 1em 0.5em 1em;
+    border-radius: 0em 0.5em 0.5em 0em;
+    margin: 0 0 0 0;
+    border-right-color: black;
+}
+#duration{
+    width: 40%;
+    height: 30px;
+}
+#ClearDura{
+    margin-left: 20px;
+    height: 30px;
+    background-color: black;
+    color: #fff;
+    border-radius: 8px;
+}
+#nxt{
+    margin-left: 110px;
+    font-size: 16px;
+    text-align: center;
+    height: 30px;
+    border-radius: 8px;
+    background-color: #000000;
+    color: #fff;
+}
+#inftab{
+    width: 40%;
+    border-spacing: 20px;
+    margin: auto;
+    box-shadow: 0px 0px 10px 0px #000;
+    border-radius: 10px;
+    margin-top: 6em;
+    background-color: #fff6f6;
+}
+#name_error, #email_error, #number_error, #cemail_error{
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+form p{
+    font-size: 0.7em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+    opacity: 0.5;
+}
+.nme, .num, #Email, #cEmail,#gender, #nxt{
+    margin-top: 1.2em;
+        
+}
+.nme label, .num label, #Email label, #cEmail label, #gender label{
+    font-size: 1.4em;
+}
+#form3{
+    text-align: center;
+}
+#form3 input[type="text"], #form3 input[type="number"], #form3 input[type="email"]{
+    width: 65%;
+    height: 30px;
+    border: none;
+    border-bottom: 1px solid #000;
+    background: none;
+    margin-top: 0.2em;
+    font-size: 0.9em;
+    text-align: center;
+}
+#crdnum, #cardnam, #exp, #cvv{
+    margin-top: 0.8em;
+}
+#form3 label{
+    font-size: 1.2em;
+}
+#pay{
+    margin-top: 0.9em;
+    width: 50%;
+    height: 30px;
+    background-color: #000;
+    color: #fff;
+    border-radius: 8px;
+}
+#cardnum_error, #cardname_error, #expdate_error, #cvv_error{
+    color: red;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    margin-left: 0.5em;
+}
+#thank_message{
+    margin: 55px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    font-size: 25px;
+    background-color: #ffdada;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 0px #000;
+}
