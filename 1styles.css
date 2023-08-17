@@ -3,9 +3,9 @@ html {
 }
 .header {
     width: 100vw;
-    background-color: #515151;
-    padding: 20px 173px;
-    margin: 0 0 10vh ;
+    background-color: #a7a14c;
+    padding: 20px 20px;
+    margin: -9px -9px;
     position: fixed;
 }
 .header a {
@@ -17,15 +17,16 @@ html {
     font-size: 18px;
     line-height: 25px;
     border-radius: 4px;
+    font-family: 'Gill Sans MT' ;
   }
   .header a:hover {
     background-color: #ddd;
-    color: black;
+    color: rgb(26, 91, 166);
 
   }
   .header a.active {
-    background-color: rgb(33, 33, 33);
-    color: white;
+     background-color: #ddd;
+    color: rgb(26, 91, 166);
   }
   
   .header-right {
@@ -60,7 +61,6 @@ hr {
 }
 body {
   background-color: #2d7b00;
-  background-image: url("images/iii.jpg");
   background-repeat:no-repeat;
   background-size:100vw;
   box-sizing: border-box;
@@ -132,8 +132,10 @@ li{
 
 }
 footer {
-  background-color: #585858;
-  margin: -8px;
+  background-color: #a7a14c;
+  padding: 10px 20px;
+  margin-left: 0%;
+  margin-right: 0%;
 }
 
 .footer-content {
@@ -147,18 +149,22 @@ footer {
 .about-us{
   padding-left: 20px;
   text-align: center;
+  font-family: Tahoma;
 }
 .cont{
 font-size: 17.2px;
 font-style: italic;
+font-family: Tahoma;
 }
 .contact-us{
   padding-left: 95px;
   text-align: center;
+  font-family: Tahoma;
 }
 .social-media{
   padding-left: 135px;
   text-align: center;
+  font-family: Tahoma;
 }
 
 .about-us, .contact-us, .social-media {
@@ -187,7 +193,7 @@ p {
 }
 
 body {
-  background-image: url("images/iii.jpg");
+  background-image: url("images/main.jpg");
   background-repeat: no-repeat;
   background-size: 1700px 800px;
   background-attachment: fixed;
@@ -220,12 +226,12 @@ body {
 .img{
     max-width: 420px;
     float: left;
-    border: 3px solid rgb(255, 225, 0);
+    border: 3px solid rgb(0, 0, 0);
     border-radius: 10px;
     margin-right: 15px;
 }
 .text-box {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
 }
 .text-box .topic12{
     font-size: 40px;
@@ -356,6 +362,7 @@ body {
     border-radius: 6px;
     border-style:dotted;
     padding: 19px;
+    font-family: 'Gill Sans', 'Gill Sans MT', ;
     margin: 10px;
   }
   table{
@@ -363,18 +370,20 @@ body {
   }
   th{
     text-align: center;
-    color: #ffffff;
+    font-family:Verdana;
+    color: #000000;
     font-size: 45px;
   }
   td{
     font-size: 30px;
-    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT',;
+    color: rgb(0, 0, 0);
   }
   .container1 {
     max-width: 900px;
     margin: 0 auto;
     padding: 20px;
-    background-color: #909090;
+    background-color: #49996e;
     border-radius: 10px;
   }
   label {
@@ -426,19 +435,19 @@ body {
 }
 
 .dropdown-button {
-  background-color: #515151;
+  background-color: #a7a14c;
   color: #000000;
   padding: 15px;
   border: none;
   cursor: pointer;
   font-size: 18px;
-  font-family: 'Times New Roman';
+  font-family:'Gill Sans', 'Gill Sans MT'
 }
 
 .dropdown-content {
   display:none;
   position: absolute;
-  background-color: #515151;
+  background-color: #a7a14c;
   min-width: 200px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -477,7 +486,7 @@ h2 {
   width: 300px;
   margin: 20px;
   padding: 20px;
-  border: 1px solid #ccc;
+  border: 2px solid #000000;
   text-align: center;
 }
 
@@ -503,7 +512,7 @@ h2 {
 font-size: 35px;
 }
 .pp{
-  color: white;
+  color: rgb(0, 0, 0);
 }
 @media(max-width:1000px){
   *{
@@ -538,14 +547,18 @@ font-size: 35px;
   margin: 4%;
 }
 .ticketbutton{
-  background-color: #515151;
+  position: fixed;
+  background-color: #333c69;
   color: #ffffff;
-  padding: 23px;
+  padding: 19px;
   border: none;
+  box-shadow: 10px 8px 16px 10px rgba(0,0,0,0.2);
   cursor: pointer;
   font-size: 22px;
   font-family: 'Times New Roman';
-  border-radius: 5px;
+  border-radius: 75px;
   text-decoration: none;
-  margin: 45%;
+  margin-bottom: 50px;
+  margin-top: 120px;
+  margin-left: 88%;
 }
