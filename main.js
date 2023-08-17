@@ -37,7 +37,7 @@ function curDate(){
     const month = date.getMonth();
     const day = date.getDate();
 
-    currdate.innerHTML = `${year} -0${month+1} -0${day}`;
+    currdate.innerHTML = `${year} -0${month+1} -${day}`;
 }
 addEventListener("load", curDate);
 
