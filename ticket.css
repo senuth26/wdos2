@@ -1,5 +1,8 @@
-body{
-    background-image: url(images/beach.jpg);
+html {
+    scroll-behavior: smooth;
+  }
+    body{
+    background-image: url(images/555.jpg);
     background-size: cover;
     margin: 0; /* Reset default margin */
     padding: 0; /* Reset default padding */
@@ -25,8 +28,7 @@ body{
   .container nav {
     box-sizing: border-box;
     margin-bottom: 10px;
-    background-color: #993737;
-    background-image: url(images/grd1.jpg);
+    background: linear-gradient(to bottom, #cc7150, #96523a);
     background-size: cover;
     color: #fff;
     display: flex;
@@ -76,10 +78,10 @@ body{
 form{
     width: 30%;
     margin-left: 5%;
-    background-color: #fff6f6;
+    background: linear-gradient(to bottom, #b9fffd, #8ff1e4, #1ea3a3);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 10px 0px #000;
+    box-shadow: 0px 0px 10px 0px #000000;
     float: left;
     position: relative;
 }
@@ -89,7 +91,7 @@ form{
     margin: auto;
     box-shadow: 0px 0px 10px 0px #000;
     border-radius: 10px;
-    background-color: #d5d5d5;
+    background: linear-gradient(to bottom, #b9fffd, #8ff1e4,#1ea3a3);
 
 }
 #sumtabl tr{
@@ -104,7 +106,7 @@ form{
     width: 50%;
 }
 .Guss, .tp{
-    background-color: blanchedalmond;
+    background-color: rgb(0, 132, 176);
 }
 .SlAd, .SlCh, .FoAd, .FoCh , .INF{
     margin-top: 1.4em;
@@ -218,7 +220,7 @@ input::-webkit-inner-spin-button{
     box-shadow: 0px 0px 10px 0px #000;
     border-radius: 10px;
     margin-top: 6em;
-    background-color: #fff6f6;
+    background: linear-gradient(to bottom, #e5ffb9, #d7d378,#aca855);
 }
 #name_error, #email_error, #number_error, #cemail_error{
     color: red;
@@ -278,7 +280,7 @@ form p{
     padding-bottom: 3px;
     text-align: center;
     font-size: 25px;
-    background-color: #ffdada;
+    background: linear-gradient(to bottom, #e5ffb9, #d7d378,#aca855);
     border-radius: 10px;
     box-shadow: 0px 0px 10px 0px #000;
 }
